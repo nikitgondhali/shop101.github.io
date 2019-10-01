@@ -1,0 +1,215 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+  height: 50px;
+    background-color: #dbdbdb;
+  
+    
+}
+.header7{
+    width: 70%;
+   }
+.header7 ul{
+    display: block;
+    margin-left: 10px;
+}
+.header7 li{
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+}
+.header7 a{
+    text-decoration: none;
+    color: #959292;
+     padding: 10px;
+}
+.header7 a:hover{
+    background-color: #fdf8f8;
+}
+.header7 #heig{
+    height: 30px;
+    width: 30;
+     
+}
+
+.header3{
+    display: block;
+    float: right;
+    margin-right:100px; 
+    padding: 15px;
+}
+.header3 a{
+    text-decoration: none;
+    padding-left: 5px;
+    
+}
+.main1{
+   
+    height: 60px;
+}
+.main1 a{
+   color: black;
+    text-decoration: none;
+}
+.main1 ul{
+    display: block;
+    margin-left: 60%;
+}
+.main1 li{
+    float: left;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.main1 li>a{
+    color: #726666;
+}
+.main1{
+    content: "";
+ 
+    clear: both;
+}
+.main2 {
+    height: 400px;
+    margin-left: 80px;
+}
+.main2 a{
+    text-decoration: none;
+    color: #726666;
+}
+.main2 h1,p{
+    padding-top: 20px;
+}
+.main2 #one{
+    position: absolute;
+    top: 130px;
+    right: 190px;
+}
+.main3{
+    margin-left: 80px;
+    
+}
+.main3 ul{
+    display: block;
+    float: left;
+       padding-left: 30px;
+    padding-bottom: 20px;
+}
+.main3 li{
+    list-style-type: none;
+}
+.main3 a{
+    text-decoration: none;
+    color: #726666;
+}
+.main3:after{
+    content: "";
+ display: table;
+    clear: both;
+}
+.main4{
+    margin-left: 155px;
+}
+.main4 a{
+    text-decoration: none;
+    color: black;
+}
+.main4 #one{
+    list-style-image: url(imgblog/be13.webp);
+    list-style-position: outside;
+}
+.main4 #two{
+    list-style-image: url(imgblog/be14.webp);
+    list-style-position: outside;
+}
+
+.main4 #three{
+    list-style-image: url(imgblog/be15.webp);
+    list-style-position: outside;
+}
+
+.main4 #four{
+    list-style-image: url(imgblog/be14.webp);
+    list-style-position: outside;
+}
+.main4 #five{
+    list-style-image: url(imgblog/be15.webp);
+    list-style-position: outside;
+}
+.main4 #six{
+    list-style-image: url(imgblog/be16.webp);
+    list-style-position: outside;
+}
+.main4 #seven{
+    list-style-image: url(imgblog/be17.webp);
+    list-style-position: outside;
+}
+.main4 #eight{
+    list-style-image: url(imgblog/be18.webp);
+    list-style-position: outside;
+}
+.main4 #nine{
+    list-style-image: url(imgblog/be19.webp);
+    list-style-position: outside;
+}
+.main4 #ten{
+    list-style-image: url(imgblog/be20.webp);
+    list-style-position: outside;
+}
+.main4 #eleven{
+    list-style-image: url(imgblog/be14.webp);
+    list-style-position: outside;
+}
+.main5{
+    margin-top: 50px;
+    
+}
+.main5 .left{
+    float: left;
+    margin-left: 155px;
+}
+
+.main5 .right{
+    float: right;
+    margin-right: 155px;
+}
+.main5 .btn{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+
+}
+.main5 .btn1{
+    padding: 10px;
+    background-color: #6c6cce;
+    
+}
+.main5:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.mainfooter{
+   height: 100px;
+    background-color: #dbd5d5;
+    
+}
+.mainfooter ul{
+    display: block;
+     margin-left:200px;
+    padding-top: 30px; 
+}
+.mainfooter li{
+    list-style-type: none;
+    float: left;
+    padding-left:25px
+   
+}
+.mainfooter a{
+    text-decoration: none;
+    color: #918e8e;
+       
+}

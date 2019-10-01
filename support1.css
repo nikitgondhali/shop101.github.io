@@ -1,0 +1,28 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    padding-left: 90px;
+    padding-top:20px
+}
+.header h1{
+    display: inline;
+    font-weight: 300;
+}
+.fright{
+    float: right;
+    margin-right: 90px;
+    padding: 5px 10px;
+}
+.main h1{
+    text-align: center;
+      font-weight: 300;
+}
+.main p{
+    display: inline;
+      margin-left: 50px;
+   
+    
+}
+

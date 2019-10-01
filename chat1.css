@@ -1,0 +1,45 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+}
+
+.header{
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+     background-color: white;
+}
+h1{
+    color: black;
+   font-weight: 300;
+}
+
+.main{
+    
+}
+p{
+    text-align: center;
+   padding-top:30px; 
+
+}
+.main #btn{
+    width: 100%;
+        border-top:0;
+    border-right:opx;
+    border-left:0px;
+    border-bottom: #242323
+}
+.main #btn1{
+     margin-top: 40px;
+      width: 100%;
+    background-color: #e64141;
+    padding: 10px;
+    
+}

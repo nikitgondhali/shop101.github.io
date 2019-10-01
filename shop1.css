@@ -1,0 +1,327 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+/*   header  */
+
+.header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.header ul{
+    display: block;
+    margin-left: 900px;
+    overflow: hidden;
+    background-color: white;
+}
+.header li{
+  
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+   }
+.header a{
+      font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover{
+    color: #e62121
+}
+#button{
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    border-style: none;
+    padding:  10px;
+   box-shadow: 0 0 10px #000;
+    z-index: 97;
+}
+
+#one{
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    z-index: 98;
+}
+#two{
+    position: absolute;
+    top: 12px;
+    left: 90px;
+    font-weight: 450;
+    z-index: 99;
+}
+
+/*  main  */
+.main{
+    margin-top: opx;
+    
+    background-image: url(img/dre6.jpg);
+    background-size: cover;
+  
+    width: 100%;
+    height: 500px;
+    
+       padding-top:175px; 
+   
+    
+}
+.main h1,h2,p{
+    margin-left: 155px;
+}
+.main h1{
+    margin-top: 0px;
+    font-weight: 900px;
+}
+.main h2{
+    font-weight: 700px;
+}
+.main p{
+    font-weight: 400px;
+    line-height: 1.6;
+}
+#three{
+    margin-left: 300px;
+}
+.main #btnleft{
+    margin-left: 155px;
+    padding: 10px 24px;
+    float: left;
+    border: 1px solid grey;
+    border-right: none;
+ 
+}
+.main #btnright{
+    padding: 10px 24px;
+    float: left;
+    background-color: black;
+    color:white;
+     border: 1px solid grey;
+ 
+}
+#demo{
+    color: #e52a2a;
+}
+
+.main .right{
+    position: absolute;
+    top: 180px;
+    right: 280px;
+           
+}
+
+
+/*main2*/
+.main2{
+    width: 100%;
+    height: 800px
+}
+.imgcontainer1{
+    position: absolute;
+    left: 290px;
+    margin-top: 50px;
+     z-index: 2;
+}
+.imgcontainer2{
+    position: relative;
+    top: 160px;
+    left: 450px;
+    z-index: 1;
+}
+.imgcontainer3{
+    position: relative;
+    left: 15px;
+    top: 180px;
+     z-index: 3;
+}
+.imgcontainer4{
+    position: relative;
+    top:350px;
+    left: 30px;
+     z-index: 4;
+}
+.main3{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/dre13.jpg);
+   
+    background-size: cover;
+    width: 100%;
+    height: 300px
+}
+.main3 h2{
+    text-align: center;
+    color: white;
+    padding-top:20px;
+    font-weight: 500
+}
+.main3 ul{
+       list-style-type: none;
+    padding-top:20px;
+    color: white;
+   display: block;
+}
+
+.main3 b{
+    font-weight: 900;
+}
+.main3 p{
+    margin-top:70px;
+     float: left;
+    line-height: 1.6;
+}
+
+.main4{
+    
+  height: 400px;
+}
+.main5{
+    background-image: url(img/dre16.jpg);
+   background-size:cover;
+    width: 100%;
+    height: 400px;
+}
+.main5 h3{
+
+    margin-left: 155px;
+    padding-top: 90px;    
+    line-height: 1.6;
+}
+
+.main6 h4{
+   padding-top: 50px;
+    text-align: center;
+    font-weight: 700;
+     line-height: 1.6;
+    
+}
+
+
+#circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+.main6{
+    text-align: center;
+    height: 600px;
+    
+}
+.main7{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/dre29.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+}
+.main7 h4{
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+    padding-top: 50px;
+    font-weight: 900;
+}
+.imgwithtext img{
+     margin-left:200px;
+     
+    
+}
+.imgwithtext {
+    float: left;
+    display:inline-block;
+    padding-top: 80px
+}
+.imgwithtext p{
+    color: white;
+    margin-left:200px;
+}
+
+.main8 {
+    text-align: center;
+}
+.main8 img{
+    width: 60%;
+}
+.main8 h3{
+    font-weight: 700;
+    padding-top: 80px;
+}
+.main8 h4{
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+
+.main9 {
+    margin-top:70px; 
+    background-color: black;
+    height: 500px;
+}
+.fleft{
+    float: left;
+}
+.fleft h2{
+    color: white;
+    font-weight: 700;
+    margin-left: 170px;
+    padding-top: 60px;
+}
+.fleft p{
+    color: white;
+    margin-left: 170px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.fleft img{
+    margin-left: 200px;
+}
+.fleft .btnleft{
+    margin-left: 170px;
+    padding: 10px 24px;
+    float: left;
+    border: 1px solid grey;
+    border-right: none;
+    margin-top: 5px;
+ 
+}
+.fleft .btnright{
+    padding: 10px 24px;
+    float: left;
+    background-color: #e03f3f;
+    color:white;
+     border: 1px solid grey;
+ margin-top: 5px;
+}
+.fleft #demo1{
+    color: #e03f3f;
+
+}
+.fright{
+    float: right;
+}
+.fright ul{
+    padding-top: 30px;
+}
+.fright li{
+    padding-top: 30px;
+
+}
+.fright a{
+    display: block;
+    margin-right:170px;
+    color: white;
+    text-decoration: none;
+}
+.fright a:hover{
+    color: #e03f3f;
+}
